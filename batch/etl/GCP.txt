@@ -1,0 +1,3 @@
+arisa-c7bb8
+storage.googleapis.com/arisa-c7bb8.appspot.com
+gcloud logging read "projects/arisa-c7bb8/logs/dialogflow_agent" --format json > stack_driver_extract.json

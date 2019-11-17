@@ -1,0 +1,37 @@
+.jumbotron {
+    margin-bottom:0;
+    padding: 2rem;
+}
+
+#jumbo_a {
+    background-image: url("../img/bg-callout_a.jpg");
+}
+
+#jumbo_b {
+    background-image: url("../img/bg-callout_b.jpg");
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/*CSS for the sort by and show form */
+.form-style-small {
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+.form-style-small label {
+    display: inline-block;
+}
+
+.form-style-small .form-elem {
+	box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 4px;
+	outline: none;
+}

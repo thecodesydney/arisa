@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="col-12">
+    <h4>Login</h4>
+    <form method="POST" action="{{ url_for('auth.login')}}" novalidate="novalidate">
+        {{ form.csrf_token }}
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.email.label(class="form-control-label") }}
+                {% for error in form.email.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.email(class="form-control") }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.password.label(class="form-control-label") }}
+                {% for error in form.password.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.password(class="form-control") }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+            {{ form.remember_me.label() }}
+            {{ form.remember_me() }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.submit(class="btn btn-md btn-primary") }}
+            </div>
+        </div>
+    </form>
+
+    <div class="border-top pt-1 mb-4">
+        <p><small><a href="{{ url_for('auth.forgot_password') }}">Forgot Password</a> |
+        <a href="{{ url_for('auth.agent_registration') }}">Register</a></small></p>
+    </div>
+</div>
+
+{% endblock %}

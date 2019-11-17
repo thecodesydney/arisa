@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}Registration{% endblock %}
+
+{% block content %}
+<div class="col-12">
+    <h4>Register</h4>
+    <form method="POST" action="{{ url_for('auth.agent_registration')}}" novalidate="novalidate">
+        {{ form.csrf_token }}
+
+        <p>Please complete the following. All fields are mandatory.</p>
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.email.label(class="form-control-label") }}
+                {% for error in form.email.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.email(class="form-control") }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.agency_name.label(class="form-control-label") }}
+                {% for error in form.agency_name.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.agency_name(class="form-control") }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-4">
+                {{ form.first_name.label(class="form-control-label") }}
+                {% for error in form.first_name.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.first_name(class="form-control") }}
+            </div>
+            <div class="form-group col-lg-4">
+                {{ form.last_name.label(class="form-control-label") }}
+                {% for error in form.last_name.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.last_name(class="form-control") }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-lg-4">
+                {{ form.password.label(class="form-control-label") }}
+                {% for error in form.password.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.password(class="form-control") }}
+            </div>
+            <div class="form-group col-lg-4">
+                {{ form.password2.label(class="form-control-label") }}
+                {% for error in form.password2.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.password2(class="form-control") }}
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-lg-4">
+                {{ form.phone.label(class="form-control-label") }}
+                {% for error in form.phone.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span>
+                {% endfor %}
+                {{ form.phone(class="form-control") }}
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.recaptcha }}
+                {% for error in form.recaptcha.errors %}
+                    <span style="color: red;">[ {{ error }} ]</span><br/>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-lg-8">
+                {{ form.submit(class="btn btn-md btn-primary") }}
+            </div>
+        </div>
+    </form>
+
+    <div class="border-top pt-1 mb-4">
+        <small class="text-muted">
+            Already Have an Account? <a class="ml-2" href="{{ url_for('auth.login') }}">Sign In</a>
+        </small>
+    </div>
+
+</div>
+{% endblock %}

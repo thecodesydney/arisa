@@ -1,0 +1,15 @@
+#type of files for git to ignore
+
+*.pyc
+*.db
+env
+secret.txt
+.zip
+.tar.gz
+.env
+venv
+/static/docs
+.idea
+migrations
+runenv.bat
+logs

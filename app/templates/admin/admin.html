@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<script>
+function resetForm() {
+  document.getElementById("search-inp-reset-pwd").value = "";
+}
+</script>
+
+<div class="col-12">
+    <h4>User Information</h4>
+    <!--Section for search and filter-->
+    <div class="pt-3 pl-3 pr-3 pb-1 mb-3" style="background-color: rgb(232,232,232);">
+        <!--Search-->
+        <form id="searchform" method="POST" action="{{ url_for('admin.manage_password')}}" novalidate="novalidate">
+            <div class="form-group row">
+                <input type="hidden" name="whichform" value="searchform">
+                <label for="search-inp" class="col-auto col-form-label">Search</label>
+                <div class="col-9">
+                    <input class="form-control" type="text" id="search-inp-reset-pwd" name="search-inp-reset-pwd" value="{{ search_str_reset_pwd }}">
+                    <small>Enter full words separated by spaces</small>
+                </div>
+                <div class="col-auto">
+                    <input class="btn btn-secondary" type="button" value="Reset" onclick="resetForm()">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- This section list of the registered user -->
+    <div class="table-responsive-sm">
+        <table class="table table-striped table-sm">
+            <thead>
+            <tr>
+                <th scope="col">User ID</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Agency ID</th>
+                <th scope="col">Agency</th>
+                <th scope="col">Email</th>
+                <th scope="col">Role</th>
+                <th scope="col">Creation Date</th>
+                <th scope="col">Last Login Date</th>
+                <th scope="col">Reset Password</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for ua in user_avail %}
+
+            <tr>
+                <td>{{ ua.id }}</td>
+                <td>{{ ua.agent.first_name }}</td>
+                <td>{{ ua.agent.last_name }}</td>
+                <td>{{ ua.agent.phone }}</td>
+                <td>{{ ua.agent_id }}</td>
+                <td>{{ ua.agent.agency_name }}</td>
+                <td>{{ ua.email }}</td>
+                <td>{{ ua.role.name }}</td>
+                <td>{{ ua.create_date }}</td>
+                <td>{{ ua.last_login }}</td>
+                <!-- Below link will provide hyperlink to reset password-->
+                <td><a href="{{ url_for('admin.reset_pass',id=ua.id) }}">Reset Password</a></td>
+            </tr>
+
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+</div>
+{% endblock %}
+
+
+

@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block title %}Admin | Agent Account{% endblock %}
+
+{% block scripts %}
+<script type='text/javascript'>
+$(window).load(function(){
+     $(function(){
+         $("#sort-inp").on("change", function(event){
+             $("#sortform-value").val(this.value);
+             $("#sortform").submit();
+         })
+     })
+     $(function(){
+         $("#show-inp").on("change", function(event){
+             $("#showform-value").val(this.value);
+             $("#showform").submit();
+         })
+     })
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="col-12">
+    <h4>Student Information</h4>
+    <!--Section for search and filter-->
+    <div class="pt-3 pl-3 pr-3 pb-1 mb-3" style="background-color: rgb(232,232,232);">
+        <!--Search-->
+        <form id="searchform" method="POST" action="{{ url_for('agent.agent_account')}}" novalidate="novalidate">
+            <div class="form-group row">
+                <input type="hidden" name="whichform" value="searchform">
+                <label for="search-inp" class="col-auto col-form-label">Search</label>
+                <div class="col-9">
+                    <input class="form-control" type="text" id="search-inp" name="search-inp" value="{{ search_str }}">
+                    <small>Enter full words separated by spaces</small>
+                </div>
+                <div class="col-auto">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container mb-3 text-right">
+        <!--Sort by-->
+        <div style="display: inline-block;">
+            <form id="sortform" method="POST" action="{{ url_for('agent.agent_account')}}" novalidate="novalidate">
+                <input type="hidden" name="whichform" value="sortform">
+                <input type="hidden" id="sortform-value" name="sortform-value" value="" />
+                <input type="submit" hidden/>
+            </form>
+            <div class="form-style-small">
+                <label for="sort-inp">Sort By</label>
+                <select id="sort-inp" class="form-elem">
+                    <option value="cou" {% if sort_order=="coo" %}selected="selected"{% endif %}>Country Origin</option>
+                    <option value="cou" {% if sort_order=="cou" %}selected="selected"{% endif %}>Course</option>
+                    <option value="edu" {% if sort_order=="edu" %}selected="selected"{% endif %}>Education</option>
+                    <option value="nat" {% if sort_order=="nat" %}selected="selected"{% endif %}>Nationality</option>
+                    <option value="tar" {% if sort_order=="tar" %}selected="selected"{% endif %}>Target City</option>
+                    <option value="sub" {% if sort_order=="sub" %}selected="selected"{% endif %}>Submitted - Most Recent First</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: inline-block;" class="ml-3">
+            <!--Show no of items-->
+            <form id="showform" method="POST" action="{{ url_for('agent.agent_account')}}" novalidate="novalidate">
+                <input type="hidden" name="whichform" value="showform">
+                <input type="hidden" id="showform-value" name="showform-value" value="" />
+                <input type="submit" hidden/>
+            </form>
+            <div class="form-style-small">
+                <label for="show-inp">Show</label>
+                <select id="show-inp" class="form-elem">
+                    <option value="10" {% if show_no_items=="10" %}selected="selected"{% endif %}>10</option>
+                    <option value="30" {% if show_no_items=="30" %}selected="selected"{% endif %}>30</option>
+                    <option value="100" {% if show_no_items=="100" %}selected="selected"{% endif %}>100</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="table-responsive-sm">
+        <table class="table table-striped table-sm">
+            <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Email</th>
+                <th scope="col">Country Origin</th>
+                <th scope="col">Nationality</th>
+                <th scope="col">Education</th>
+                <th scope="col">Target City</th>
+                <th scope="col">Course</th>
+                <th scope="col">Stay Perm?</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for sa in stud_avail.items %}
+            <tr>
+                <td>{{ sa.id }}</td>
+                <td>{{ sa.email }}</td>
+                <td>{{ sa.country_of_origin }}</td>
+                <td>{{ sa.nationality }}</td>
+                <td>{{ sa.education }}</td>
+                <td>{{ sa.target_city }}</td>
+                <td>{{ sa.course }}</td>
+                <td>{{ sa.stay_permanently_flag }}</td>
+                <td><a href="{{ url_for('static', filename='reports/') }}{{ sa.report_name }}">Report ></a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% if stud_avail.pages > 1 %}
+    <nav>
+      <ul class="pagination justify-content-center">
+        {% if stud_avail.has_prev %}
+        <li class="page-item">
+            <span class="page-link"><a href="{{ url_for('agent.agent_account', page=stud_avail.prev_num) }}">Previous</a></span>
+        </li>
+        {% endif %}
+
+        {% for page_num in stud_avail.iter_pages(left_edge=1, left_current=3, right_current=3, right_edge=1) %}
+            {% if page_num %}
+                {% if page_num != stud_avail.page %}
+                    <li class="page-item">
+                        <a class="page-link" href="{{ url_for('agent.agent_account', page=page_num) }}">{{ page_num }}</a>
+                    </li>
+                {% else %}
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">{{ page_num }}</span>
+                    </li>
+                {% endif %}
+            {% else %}
+                <li class="page-item">
+                    <span class="page-link">...</span>
+                </li>
+            {% endif %}
+        {% endfor %}
+
+        {% if stud_avail.has_next %}
+        <li class="page-item">
+            <span class="page-link"><a href="{{ url_for('agent.agent_account', page=stud_avail.next_num) }}">Next</a></span>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% endif %}
+
+</div>
+{% endblock %}

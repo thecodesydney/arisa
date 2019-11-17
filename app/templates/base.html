@@ -1,0 +1,141 @@
+<!-- Base template for all pages except the main page -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Come study in Australia, let's have a chat!">
+    <meta name="author" content="Code.Sydney">
+
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='img/favicon.ico') }}">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="{{ url_for('static', filename='fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/stylish-portfolio.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/app.css') }}" type="text/css" rel="stylesheet" >
+
+    <!--needed for flask-moment-->
+    {{ moment.include_jquery() }}
+    {{ moment.include_moment() }}
+
+    <!--custom scripts-->
+    {% block scripts %}{% endblock %}
+</head>
+
+
+<body id="page-top" class="bg-primary">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="{{ url_for('main.index') }}">Arisa</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('main.index') }}">Home</a>
+            </li>
+            <!--
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('main.about') }}">About</a>
+            </li>
+            -->
+            {% if current_user.is_authenticated %}
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('agent.agent_account') }}">Student Details</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('auth.logout') }}">Logout</a>
+            </li>
+            {% endif %}
+             <!--CP_8Aug2019--START Admin Section   -->
+            <!-- For Admin role show Admin link-->
+            {% if current_user.is_role("admin") %}
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('admin.manage_password') }}">Admin-Reset Password</a>
+            </li>
+            {% endif %}
+            <!--CP_8Aug2019--END Admin Section   -->
+            {% if current_user.is_anonymous %}
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('auth.login') }}">Login</a>
+            </li>
+            {% endif %}
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{ url_for('main.contact') }}">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <div id="jumbo_a" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Arisa Portal</h1>
+        </div>
+    </div>
+
+    <!-- Message -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-info mb-0 rounded-0" role="alert">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <!-- Content -->
+    <div class="bg-light">
+        <div class="container">
+            <div class="row pt-4 pb-5">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-primary" >
+        <div class="row">
+            <div class="col-12 mt-4 pt-5">
+                <div class="d-flex justify-content-center text-white">
+                    <a href="https://www.facebook.com/codesyd/" class="text-white">
+                        <i class="fab fa-2x fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-1 mb-4 pb-5">
+                <div class="d-flex justify-content-center text-white">
+                    <p class="text-white small mb-0">Copyright &copy; <a class="text-white" href="http://www.caloservices.com/">Calo Services Pty Ltd</a> 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/stylish-portfolio.min.js') }}"></script>
+</body>
+</html>

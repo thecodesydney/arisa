@@ -1,0 +1,1122 @@
+[
+  {
+    "insertId": "nledzwfqnoftt",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "8296d739-73e5-4da1-b2c4-257b85c7ac85-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:26.260764798Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"8296d739-73e5-4da1-b2c4-257b85c7ac85-594de0a7\"\nlang: \"en\"\nsession_id: \"dec80d74-9e91-434c-bdd1-5d0b82bc7998:0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:31:26.235Z\"\nresult {\n  source: \"domains\"\n  resolved_query: \"bye\"\n  action: \"smalltalk.greetings.bye\"\n  score: 1.0\n  metadata {\n  }\n  fulfillment {\n    speech: \"Bye-bye!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Bye-bye!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:31:26.260764798Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "nledzwfqnofts",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "8296d739-73e5-4da1-b2c4-257b85c7ac85-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:26.260764798Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"bye\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:31:26.260764798Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1m01kmbfqbdb34",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "a0c87727-a624-46b6-bcec-e9d1fc430ec2-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:21.968107542Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"a0c87727-a624-46b6-bcec-e9d1fc430ec2-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:31:21.942Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"engramar1@gmail.com\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"engramar1@gmail.com\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"engramar1@gmail.com\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    end_conversation: true\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"That's all for now. Thanks for your time. You should expect a report from us. I will send it to engramar1@gmail.com. Bye!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"That's all for now. Thanks for your time. You should expect a report from us. I will send it to engramar1@gmail.com. Bye!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:31:21.968107542Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1m01kmbfqbdb33",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "a0c87727-a624-46b6-bcec-e9d1fc430ec2-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:21.968107542Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"engramar1@gmail.com\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:31:21.968107542Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1m9ny7qfqjf8rb",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4c9004c9-f3b3-4ab2-829e-54d6d93ec954-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:16.130784618Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"4c9004c9-f3b3-4ab2-829e-54d6d93ec954-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:31:16.101Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"engramar1@gmail.com\"\n  action_incomplete: true\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"engramar1@gmail.com\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"1315282b-85f5-4ac6-95f5-21af734d3c57_id_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_params_email2\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2019-12-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2019-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"after 3 months\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar1@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Please enter your email again just to confirm.\"\n    messages {\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Please enter your email again just to confirm.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:31:16.130784618Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1m9ny7qfqjf8ra",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4c9004c9-f3b3-4ab2-829e-54d6d93ec954-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:16.130784618Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"engramar1@gmail.com\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:31:16.130784618Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "bo13edfqrxp3h",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "9ecaa8d6-6b76-41a6-9575-ff6b8f0a020b-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:05.355105796Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"9ecaa8d6-6b76-41a6-9575-ff6b8f0a020b-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:31:05.324Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"Yes\"\n  action_incomplete: true\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"1315282b-85f5-4ac6-95f5-21af734d3c57_id_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_params_email\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2019-12-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2019-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"after 3 months\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Kindly provide me your email so we can send the report to you.\"\n    messages {\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Kindly provide me your email so we can send the report to you.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:31:05.355105796Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "bo13edfqrxp3g",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "9ecaa8d6-6b76-41a6-9575-ff6b8f0a020b-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:31:05.355105796Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"Yes\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:31:05.355105796Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "l39z0ffpvz0yu",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "90943d2c-c984-4129-af66-1bda5410f7cb-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:54.328617345Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"90943d2c-c984-4129-af66-1bda5410f7cb-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:54.316Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"after 3 months\"\n  score: 0.825957\n  parameters {\n    fields {\n      key: \"date-period\"\n      value {\n        struct_value {\n          fields {\n            key: \"startDate\"\n            value {\n              string_value: \"2019-12-01T00:00:00+11:00\"\n            }\n          }\n          fields {\n            key: \"endDate\"\n            value {\n              string_value: \"2019-12-31T23:59:59+11:00\"\n            }\n          }\n        }\n      }\n    }\n    fields {\n      key: \"date\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"duration\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2019-12-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2019-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"after 3 months\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"55bf700c-f41d-446e-ae34-271ac6687a04\"\n    intent_name: \"ArrivalDate\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Do you intend to stay permanently in Australia after studying?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Do you intend to stay permanently in Australia after studying?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:54.328617345Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "l39z0ffpvz0yt",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "90943d2c-c984-4129-af66-1bda5410f7cb-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:54.328617345Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"after 3 months\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:54.328617345Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "q38rjffr93b69",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "0732f436-2c32-446d-8c9b-17454b59ed46-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:48.526442433Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"0732f436-2c32-446d-8c9b-17454b59ed46-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:48.501Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"University of Melbourne\"\n  score: 0.63393635\n  parameters {\n  }\n  contexts {\n    name: \"arrival-date\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"979480b3-face-41c3-ac45-27c12e37d0f6\"\n    intent_name: \"School\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks. When do you intend to arrive in Australia? (Example: After 6 months, Next year, etc)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks. When do you intend to arrive in Australia? (Example: After 6 months, Next year, etc)\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:48.526442433Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "q38rjffr93b68",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "0732f436-2c32-446d-8c9b-17454b59ed46-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:48.526442433Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"University of Melbourne\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:48.526442433Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "qd38ryfvu1cnj",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4765e236-6dd9-45e6-96ed-21c8b36e16e6-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:40.559611621Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"4765e236-6dd9-45e6-96ed-21c8b36e16e6-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:40.549Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"Accounting\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Course-Entity\"\n      value {\n        string_value: \"Advanced Diploma of Accounting\"\n      }\n    }\n  }\n  contexts {\n    name: \"school\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Course-Entity\"\n        value {\n          string_value: \"Advanced Diploma of Accounting\"\n        }\n      }\n      fields {\n        key: \"Course-Entity.original\"\n        value {\n          string_value: \"Accounting\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"4fd0b0d9-f3ea-4013-8666-e930c5d2b3f3\"\n    intent_name: \"CourseKeyword\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Let me know which school do you want to get in.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Let me know which school do you want to get in.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:40.559611621Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "qd38ryfvu1cni",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4765e236-6dd9-45e6-96ed-21c8b36e16e6-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:40.559611621Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"Accounting\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:40.559611621Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "u8xh5mfvwg89q",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "50d4b0f4-7061-4882-bd38-4ca5c89b136f-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:32.838170032Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"50d4b0f4-7061-4882-bd38-4ca5c89b136f-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:32.809Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"IT\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Course-Entity\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"coursekeyword\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Course-Entity\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"Course-Entity.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"8be39829-a35e-4e80-bfed-cfe950fd445e\"\n    intent_name: \"Course\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks for letting me know about your field of interest. Can you tell me which specific area of study you are planning to pursue?(Example: Accounting) or if you know the actual course name, please let me know.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks for letting me know about your field of interest. Can you tell me which specific area of study you are planning to pursue?(Example: Accounting) or if you know the actual course name, please let me know.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:32.838170032Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "u8xh5mfvwg89p",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "50d4b0f4-7061-4882-bd38-4ca5c89b136f-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:32.838170032Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"IT\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:32.838170032Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1rtp2dgfvkcdlz",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "c45bf356-fd6c-4e0b-a7f4-9441c8a0d9ce-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:28.931151176Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"c45bf356-fd6c-4e0b-a7f4-9441c8a0d9ce-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:28.885Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"melbourne\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"course\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"7c8857f6-6b92-4840-8e1b-0f32e6a575da\"\n    intent_name: \"City\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Please choose which field of study you want to pursue from this list: \\n- Science\\n- IT \\n- Engineering\\n- Architecture\\n- Agriculture\\n- Health\\n- Education\\n- Business\\n- Society \\n- Creative Arts \\n- Food and Hospitality\\n- Mixed Programs\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Please choose which field of study you want to pursue from this list: \\n- Science\\n- IT \\n- Engineering\\n- Architecture\\n- Agriculture\\n- Health\\n- Education\\n- Business\\n- Society \\n- Creative Arts \\n- Food and Hospitality\\n- Mixed Programs\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:28.931151176Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1rtp2dgfvkcdly",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "c45bf356-fd6c-4e0b-a7f4-9441c8a0d9ce-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:28.931151176Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"melbourne\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:28.931151176Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1lzsuagfqxf011",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "86fa713a-1988-49a6-a271-9b721c077d38-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:25.133219864Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"86fa713a-1988-49a6-a271-9b721c077d38-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:25.089Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"masters\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Education-Entity\"\n      value {\n        string_value: \"Masters Degree Research\"\n      }\n    }\n  }\n  contexts {\n    name: \"city\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Education-Entity\"\n        value {\n          string_value: \"Masters Degree Research\"\n        }\n      }\n      fields {\n        key: \"Education-Entity.original\"\n        value {\n          string_value: \"masters\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"44969127-655e-4b56-8d67-19864481f223\"\n    intent_name: \"Education\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks. In which city do you intend to study? Sydney? Melbourne? Darwin?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks. In which city do you intend to study? Sydney? Melbourne? Darwin?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:25.133219864Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1lzsuagfqxf010",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "86fa713a-1988-49a6-a271-9b721c077d38-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:25.133219864Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"masters\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:25.133219864Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "m7pxiafqt8snz",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "429881c1-cba5-48f7-ac9c-7dc82b975b6e-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:20.500886880Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"429881c1-cba5-48f7-ac9c-7dc82b975b6e-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:20.473Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"01011980\"\n  score: 0.59526736\n  parameters {\n    fields {\n      key: \"date\"\n      value {\n        string_value: \"1980-01-01T12:00:00+11:00\"\n      }\n    }\n  }\n  contexts {\n    name: \"education\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"1980-01-01T12:00:00+11:00\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"01011980\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"9c9dfda4-3a83-4976-b110-a5d63ea6a45a\"\n    intent_name: \"Birthday\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"How about your educational background? (Example: Bachelor Degree)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"How about your educational background? (Example: Bachelor Degree)\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:20.500886880Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "m7pxiafqt8sny",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "429881c1-cba5-48f7-ac9c-7dc82b975b6e-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:20.500886880Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"01011980\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:20.500886880Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "xupg47fvtvx0a",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "3f0f5f41-c2a1-41d1-8566-a7e7b9853668-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:15.572706948Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"3f0f5f41-c2a1-41d1-8566-a7e7b9853668-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:15.545Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"chinese\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Nationality-Entity\"\n      value {\n        string_value: \"Chinese\"\n      }\n    }\n    fields {\n      key: \"geo-country\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"location\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"dob\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Nationality-Entity\"\n        value {\n          string_value: \"Chinese\"\n        }\n      }\n      fields {\n        key: \"Nationality-Entity.original\"\n        value {\n          string_value: \"chinese\"\n        }\n      }\n      fields {\n        key: \"geo-country\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"geo-country.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"location\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"location.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"cb49bc87-23f9-44f8-b53e-a21b1e7d90d8\"\n    intent_name: \"Nationality\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks for that! What's your date of birth?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks for that! What's your date of birth?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:15.572706948Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "xupg47fvtvx09",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "3f0f5f41-c2a1-41d1-8566-a7e7b9853668-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:15.572706948Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"chinese\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:15.572706948Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1k28s5kfqwdwer",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "9739ac34-4ae7-4abb-b0f6-56a460e03956-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:12.026689236Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"9739ac34-4ae7-4abb-b0f6-56a460e03956-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:11.981Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"china\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"geo-country\"\n      value {\n        string_value: \"China\"\n      }\n    }\n    fields {\n      key: \"geo-city\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"nationality\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"geo-country\"\n        value {\n          string_value: \"China\"\n        }\n      }\n      fields {\n        key: \"geo-country.original\"\n        value {\n          string_value: \"china\"\n        }\n      }\n      fields {\n        key: \"geo-city\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"geo-city.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"a585e749-01de-49ec-b491-23ccd4713e83\"\n    intent_name: \"CountryOfOrigin\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"What is your nationality or your country of citizenship?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"What is your nationality or your country of citizenship?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:12.026689236Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1k28s5kfqwdweq",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "9739ac34-4ae7-4abb-b0f6-56a460e03956-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:12.026689236Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"china\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:12.026689236Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "sbfcjtfqwxmp2",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "17171aef-8a9a-471b-b5da-7948527c4c92-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:06.884017253Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"17171aef-8a9a-471b-b5da-7948527c4c92-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:30:06.856Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"hello\"\n  action: \"input.welcome\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"first-contact\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"e4ee82d1-b058-4aad-9f54-276f025c195b\"\n    intent_name: \"Default Welcome Intent\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:30:06.884017253Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "sbfcjtfqwxmp1",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "17171aef-8a9a-471b-b5da-7948527c4c92-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:30:06.884017253Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"hello\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:30:06.884017253Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "8c5hk9fqablh6",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "c43d145c-4e66-4be4-b04f-f2174abf5479-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:20.361446008Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"c43d145c-4e66-4be4-b04f-f2174abf5479-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:28:20.319Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"engramar.bollas@gmail.com\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"engramar.bollas@gmail.com\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"engramar.bollas@gmail.com\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    end_conversation: true\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"That's all for now. Thanks for your time. You should expect a report from me within the next 24 hours. I will send it to engramar.bollas@gmail.com. Bye!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"That's all for now. Thanks for your time. You should expect a report from me within the next 24 hours. I will send it to engramar.bollas@gmail.com. Bye!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:28:20.361446008Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "8c5hk9fqablh5",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "c43d145c-4e66-4be4-b04f-f2174abf5479-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:20.361446008Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"engramar.bollas@gmail.com\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:28:20.361446008Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1js7xytfqwx909",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "7316f75c-e8a5-422b-b747-207b414f33b6-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:13.377210528Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"7316f75c-e8a5-422b-b747-207b414f33b6-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:28:13.33Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"engramar.bollas@gmail.com\"\n  action_incomplete: true\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"engramar.bollas@gmail.com\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"1315282b-85f5-4ac6-95f5-21af734d3c57_id_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_params_email2\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2020-01-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2020-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"next year\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"engramar.bollas@gmail.com\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Please enter your email again just to confirm.\"\n    messages {\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Please enter your email again just to confirm.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:28:13.377210528Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1js7xytfqwx908",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "7316f75c-e8a5-422b-b747-207b414f33b6-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:13.377210528Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"engramar.bollas@gmail.com\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:28:13.377210528Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1aw8pcsfqc0409",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "77cf4f20-a1b3-4760-9c09-b9a6f81e55c7-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:03.290049255Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"77cf4f20-a1b3-4760-9c09-b9a6f81e55c7-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:28:03.258Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"no\"\n  action_incomplete: true\n  score: 1.0\n  parameters {\n    fields {\n      key: \"email\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"email2\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"1315282b-85f5-4ac6-95f5-21af734d3c57_id_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_context\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"staypermanently_dialog_params_email\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2020-01-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2020-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"next year\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"email2.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1315282b-85f5-4ac6-95f5-21af734d3c57\"\n    intent_name: \"StayPermanently\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Kindly provide me your email so we can send the report to you.\"\n    messages {\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Kindly provide me your email so we can send the report to you.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:28:03.290049255Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1aw8pcsfqc0408",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "77cf4f20-a1b3-4760-9c09-b9a6f81e55c7-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:03.290049255Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"no\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:28:03.290049255Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "lxi8ryfr09s6x",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "caf95208-ae46-45fd-af62-e0cf2808aef2-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:00.597794455Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"caf95208-ae46-45fd-af62-e0cf2808aef2-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:28:00.572Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"next year\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"date-period\"\n      value {\n        struct_value {\n          fields {\n            key: \"startDate\"\n            value {\n              string_value: \"2020-01-01T00:00:00+11:00\"\n            }\n          }\n          fields {\n            key: \"endDate\"\n            value {\n              string_value: \"2020-12-31T23:59:59+11:00\"\n            }\n          }\n        }\n      }\n    }\n    fields {\n      key: \"date\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"duration\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"stay-permanently\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date-period\"\n        value {\n          struct_value {\n            fields {\n              key: \"startDate\"\n              value {\n                string_value: \"2020-01-01T00:00:00+11:00\"\n              }\n            }\n            fields {\n              key: \"endDate\"\n              value {\n                string_value: \"2020-12-31T23:59:59+11:00\"\n              }\n            }\n          }\n        }\n      }\n      fields {\n        key: \"date-period.original\"\n        value {\n          string_value: \"next year\"\n        }\n      }\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"duration.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"55bf700c-f41d-446e-ae34-271ac6687a04\"\n    intent_name: \"ArrivalDate\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Do you intend to stay permanently in Australia after studying?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Do you intend to stay permanently in Australia after studying?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:28:00.597794455Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "lxi8ryfr09s6w",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "caf95208-ae46-45fd-af62-e0cf2808aef2-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:28:00.597794455Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"next year\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:28:00.597794455Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1nxpladfpzjihy",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "b14d06b0-3add-4c34-a0be-7eeb336a8749-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:52.533339063Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"b14d06b0-3add-4c34-a0be-7eeb336a8749-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:52.506Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"UNSW\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"arrival-date\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"979480b3-face-41c3-ac45-27c12e37d0f6\"\n    intent_name: \"School\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks. When do you intend to arrive in Australia? (Example: After 6 months, Next year, etc)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks. When do you intend to arrive in Australia? (Example: After 6 months, Next year, etc)\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:52.533339063Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1nxpladfpzjihx",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "b14d06b0-3add-4c34-a0be-7eeb336a8749-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:52.533339063Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"UNSW\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:52.533339063Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "l39z0ffpuybtf",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "fc73bb04-ce04-46d3-a8b9-72f50716aba9-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:47.796633872Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"fc73bb04-ce04-46d3-a8b9-72f50716aba9-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:47.762Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"Management\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Course-Entity\"\n      value {\n        string_value: \"Advanced Diploma of Leadership and Management\"\n      }\n    }\n  }\n  contexts {\n    name: \"school\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Course-Entity\"\n        value {\n          string_value: \"Advanced Diploma of Leadership and Management\"\n        }\n      }\n      fields {\n        key: \"Course-Entity.original\"\n        value {\n          string_value: \"Management\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"4fd0b0d9-f3ea-4013-8666-e930c5d2b3f3\"\n    intent_name: \"CourseKeyword\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Let me know which school do you want to get in.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Let me know which school do you want to get in.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:47.796633872Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "l39z0ffpuybtd",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "fc73bb04-ce04-46d3-a8b9-72f50716aba9-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:47.796633872Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"Management\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:47.796633872Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "qn8e24fvse97q",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "af62c9bc-fd5c-4ad2-aa94-4735476fadb3-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:44.219359185Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"af62c9bc-fd5c-4ad2-aa94-4735476fadb3-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:44.175Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"IT\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Course-Entity\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"coursekeyword\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Course-Entity\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"Course-Entity.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"8be39829-a35e-4e80-bfed-cfe950fd445e\"\n    intent_name: \"Course\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks for letting me know about your field of interest. Can you tell me which specific area of study you are planning to pursue?(Example: Accounting) or if you know the actual course name, please let me know.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks for letting me know about your field of interest. Can you tell me which specific area of study you are planning to pursue?(Example: Accounting) or if you know the actual course name, please let me know.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:44.219359185Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "qn8e24fvse97p",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "af62c9bc-fd5c-4ad2-aa94-4735476fadb3-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:44.219359185Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"IT\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:44.219359185Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "ptgnycfqt9ccp",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "8dae19ce-a718-4982-9921-1eec56b0b54d-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:40.593020169Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"8dae19ce-a718-4982-9921-1eec56b0b54d-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:40.547Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"Sydney\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"course\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"7c8857f6-6b92-4840-8e1b-0f32e6a575da\"\n    intent_name: \"City\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Please choose which field of study you want to pursue from this list: \\n- Science\\n- IT \\n- Engineering\\n- Architecture\\n- Agriculture\\n- Health\\n- Education\\n- Business\\n- Society \\n- Creative Arts \\n- Food and Hospitality\\n- Mixed Programs\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Please choose which field of study you want to pursue from this list: \\n- Science\\n- IT \\n- Engineering\\n- Architecture\\n- Agriculture\\n- Health\\n- Education\\n- Business\\n- Society \\n- Creative Arts \\n- Food and Hospitality\\n- Mixed Programs\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:40.593020169Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "ptgnycfqt9cco",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "8dae19ce-a718-4982-9921-1eec56b0b54d-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:40.593020169Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"Sydney\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:40.593020169Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1ndpsnzfq60trl",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4bd5bcef-e320-4743-bc5c-52c256884749-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:34.370889419Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"4bd5bcef-e320-4743-bc5c-52c256884749-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:34.327Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"bachelor\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Education-Entity\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"city\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Education-Entity\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"Education-Entity.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"44969127-655e-4b56-8d67-19864481f223\"\n    intent_name: \"Education\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks. In which city do you intend to study? Sydney? Melbourne? Darwin?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks. In which city do you intend to study? Sydney? Melbourne? Darwin?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:34.370889419Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1ndpsnzfq60trk",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4bd5bcef-e320-4743-bc5c-52c256884749-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:34.370889419Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"bachelor\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:34.370889419Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "pszisnfqzttqx",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "30103cee-f4d9-44a4-ab31-eb31c30a018d-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:30.146286228Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"30103cee-f4d9-44a4-ab31-eb31c30a018d-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:30.118Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"23 sep 1975\"\n  score: 0.76416254\n  parameters {\n    fields {\n      key: \"date\"\n      value {\n        string_value: \"1975-09-23T12:00:00+10:00\"\n      }\n    }\n  }\n  contexts {\n    name: \"education\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"date\"\n        value {\n          string_value: \"1975-09-23T12:00:00+10:00\"\n        }\n      }\n      fields {\n        key: \"date.original\"\n        value {\n          string_value: \"23 sep 1975\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"9c9dfda4-3a83-4976-b110-a5d63ea6a45a\"\n    intent_name: \"Birthday\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"How about your educational background? (Example: Bachelor Degree)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"How about your educational background? (Example: Bachelor Degree)\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:30.146286228Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "pszisnfqzttqw",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "30103cee-f4d9-44a4-ab31-eb31c30a018d-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:30.146286228Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"23 sep 1975\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:30.146286228Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1kc4x3ofqvr3gf",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4ed2e66e-1aa1-4a6f-a356-124b3a3e674e-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:23.516977013Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"4ed2e66e-1aa1-4a6f-a356-124b3a3e674e-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:23.47Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"filipino\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Nationality-Entity\"\n      value {\n        string_value: \"Filipino\"\n      }\n    }\n    fields {\n      key: \"geo-country\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"location\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"dob\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"Nationality-Entity\"\n        value {\n          string_value: \"Filipino\"\n        }\n      }\n      fields {\n        key: \"Nationality-Entity.original\"\n        value {\n          string_value: \"filipino\"\n        }\n      }\n      fields {\n        key: \"geo-country\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"geo-country.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"location\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"location.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"cb49bc87-23f9-44f8-b53e-a21b1e7d90d8\"\n    intent_name: \"Nationality\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Thanks for that! What's your date of birth?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Thanks for that! What's your date of birth?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:23.516977013Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1kc4x3ofqvr3ge",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "4ed2e66e-1aa1-4a6f-a356-124b3a3e674e-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:23.516977013Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"filipino\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:23.516977013Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1rjli3nfqkgs3s",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "70c68be3-16ff-44c8-90e5-df00b6e23fd6-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:18.329569861Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"70c68be3-16ff-44c8-90e5-df00b6e23fd6-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:18.284Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"philippines\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"geo-country\"\n      value {\n        string_value: \"Philippines\"\n      }\n    }\n    fields {\n      key: \"geo-city\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"nationality\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"geo-country\"\n        value {\n          string_value: \"Philippines\"\n        }\n      }\n      fields {\n        key: \"geo-country.original\"\n        value {\n          string_value: \"philippines\"\n        }\n      }\n      fields {\n        key: \"geo-city\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"geo-city.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"a585e749-01de-49ec-b491-23ccd4713e83\"\n    intent_name: \"CountryOfOrigin\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"What is your nationality or your country of citizenship?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"What is your nationality or your country of citizenship?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:18.329569861Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1rjli3nfqkgs3r",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "70c68be3-16ff-44c8-90e5-df00b6e23fd6-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:18.329569861Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"philippines\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:18.329569861Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1mtuuh9fq6f0d5",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "f3427ea6-c475-437f-a59e-6ab452a3798e-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:10.196277948Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"f3427ea6-c475-437f-a59e-6ab452a3798e-594de0a7\"\nlang: \"en\"\nsession_id: \"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\"\ntimestamp: \"2019-09-27T23:27:10.153Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"hi\"\n  action: \"input.welcome\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"first-contact\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"e4ee82d1-b058-4aad-9f54-276f025c195b\"\n    intent_name: \"Default Welcome Intent\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T23:27:10.196277948Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1mtuuh9fq6f0d4",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "f3427ea6-c475-437f-a59e-6ab452a3798e-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T23:27:10.196277948Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"0eef7bc7-6d06-2e44-ffe6-e9b7c286a771\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"hi\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T23:27:10.196277948Z",
+    "trace": "0eef7bc7-6d06-2e44-ffe6-e9b7c286a771"
+  },
+  {
+    "insertId": "1vpnfrqfvbuodr",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "b7c0ba76-0174-4e08-b8b0-27091c1ddedf-594de0a7",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T22:23:53.091860116Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Response : id: \"b7c0ba76-0174-4e08-b8b0-27091c1ddedf-594de0a7\"\nlang: \"en\"\nsession_id: \"65b37363-edcf-a329-2da9-0ba2bd23179f\"\ntimestamp: \"2019-09-27T22:23:53.046Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"hi\"\n  action: \"input.welcome\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"first-contact\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"e4ee82d1-b058-4aad-9f54-276f025c195b\"\n    intent_name: \"Default Welcome Intent\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Hello! My name is Arisa. Looks like you are planning to study in Australia. I can show you some valuable information about it. This will not take long. Will ask few questions. Which country you plan to apply from?\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "timestamp": "2019-09-27T22:23:53.091860116Z",
+    "trace": "65b37363-edcf-a329-2da9-0ba2bd23179f"
+  },
+  {
+    "insertId": "1vpnfrqfvbuodq",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "b7c0ba76-0174-4e08-b8b0-27091c1ddedf-594de0a7",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/arisa-c7bb8/logs/dialogflow_agent",
+    "receiveTimestamp": "2019-09-27T22:23:53.091860116Z",
+    "resource": {
+      "labels": {
+        "project_id": "arisa-c7bb8"
+      },
+      "type": "global"
+    },
+    "severity": "INFO",
+    "textPayload": "Dialogflow Request : {\"session\":\"65b37363-edcf-a329-2da9-0ba2bd23179f\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"hi\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"Australia/Sydney\"}",
+    "timestamp": "2019-09-27T22:23:53.091860116Z",
+    "trace": "65b37363-edcf-a329-2da9-0ba2bd23179f"
+  }
+]
